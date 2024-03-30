@@ -1,4 +1,4 @@
-# IP Packet Monitor Script
+# IP Packet Monitor Shell Script
 
 This Bash script monitors incoming IP packets and displays the current time along with a star for each packet received. It can be useful for network diagnostics or tracking network activity.
 
@@ -10,12 +10,12 @@ This Bash script monitors incoming IP packets and displays the current time alon
 
 1. Make the script executable:
    ```bash
-   chmod +x ip_packet_monitor.sh
+   chmod +x packetsIn1.sh
    ```
 
 2. Run the script:
    ```bash
-   ./ip_packet_monitor.sh
+   ./packetsIn1.sh
    ```
 
 3. The script will continuously display the current time and a star for each incoming IP packet received in the last 60 seconds.
